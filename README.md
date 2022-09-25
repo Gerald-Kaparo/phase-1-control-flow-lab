@@ -143,3 +143,12 @@ That leaves us with `1 < 4`, which the JavaScript engine correctly evaluates to
 through the assignment.
 
 Good luck!
+
+
+  if (tip === "generous") {
+    return "Thank you so much.";
+} else if (tip === "not as generous") {
+    return "Thank you.";
+} else {
+    return "Bye.";
+}
