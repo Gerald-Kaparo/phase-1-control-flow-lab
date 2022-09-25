@@ -13,19 +13,14 @@ function scuberGreetingForFeet(lengthOfRideInfeets){
 
 function ternaryCheckCity(location){
   // Write your code here!
-  if (location === 'NYC') {
-    return 'Ok, sounds good.';
-    }
-  else{
-    return 'No go.';
-    }
+  return location === 'NYC' ? 'Ok, sounds good.' : 'No go.' ;
 }
 
 function switchOnCharmFromTip(appreciation){
   // Write your code here!
   switch(appreciation){
-    case "generous" :
-      return "Thank you so much."
+    case 'generous' :
+      return 'Thank you so much.'
     case 'not as generous':
       return 'Thank you.'
     default:
